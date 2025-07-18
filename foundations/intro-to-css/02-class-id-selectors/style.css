@@ -1,0 +1,20 @@
+/* style.css */
+
+.odd {
+    background-color: #ff8a8a;
+    font-family: "Veranda", "DejaVu Sans", sans-serif;
+}
+
+.medium-font {
+    font-size: 24px;
+}
+
+#number-2 {
+    color: #002aff;
+    font-size: 36px;
+}
+
+#number-4 {
+    background-color: #b7eeb7;
+    font-weight: bold;
+}
