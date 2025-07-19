@@ -15,14 +15,34 @@ body {
   justify-content: center;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: large;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  display: flex;
+  padding: 18px;
+  gap: 18px;
 }
 
 .icon {
+  flex: 0 0 auto;
+
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
